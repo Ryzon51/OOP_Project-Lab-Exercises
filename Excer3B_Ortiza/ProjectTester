@@ -1,0 +1,31 @@
+public class ProjectTester {
+    public static void main(String[] args) {
+       
+        DigitalProduct ebook = new DigitalProduct("Java Fundamentals", 29.99, 101, 1.2);
+        ebook.displayInfo();
+        ebook.download();
+
+        Apparel shirt = new Apparel("Polo Shirt", 19.99, 201, 0.5, "M");
+        shirt.displayInfo();
+        shirt.tryOn();
+        shirt.ship();
+
+       
+        Electronics laptop = new Electronics("Laptop", 899.99, 301, 2.5, 2);
+        laptop.displayInfo();
+        laptop.activateWarranty();
+        laptop.ship();
+
+       
+        Furniture chair = new Furniture("Office Chair", 129.99, 401, 10.0, "Leather");
+        chair.displayInfo();
+        chair.assemble();
+        chair.ship();
+
+       
+        Grocery apple = new Grocery("Red Apple", 0.99, 501, 0.2, "2025-10-01");
+        apple.displayInfo();
+        apple.checkExpiry();
+        apple.ship();
+    }
+}
