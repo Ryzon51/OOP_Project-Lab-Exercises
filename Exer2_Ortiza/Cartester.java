@@ -6,7 +6,7 @@ public class Car{
 
     public Car () {
         this.color = "White";
-        this.plateNO = "MARK1234";
+        this.plateNO = "KYTHE1234";
         this.engineNO = "Engine2468";
         this.chasisNO = "Chasis36912";
     }
